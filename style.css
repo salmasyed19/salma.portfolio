@@ -1,0 +1,362 @@
+*{
+    padding: 5px;
+}
+body {
+    background:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);  
+}
+.content {
+    padding: 20px;
+}
+.navbar-brand {
+    color:purple;
+}
+.navbar {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); 
+}
+.navbar-nav .nav-link:hover {
+    color:rgb(5, 3, 4);
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0 5px 2.5px palevioletred;
+  }
+  .navbar-nav .nav-link-:active {
+    color:purple;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0 5px 2.5px palevioletred;
+  }
+  /* CSS for Toggler Button */
+.navbar-toggler {
+    width: 50px;
+    height: 40px;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background-color:blueviolet;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler.active {
+    background-color:blue; /* Change the color when active */
+  }
+  
+  .navbar.toggler.active:before {
+    transform: translateX(30px); /* Move the toggle circle when active */
+  }
+  /*=============image===================*/
+  
+  /*=======================page1-home===================================================================*/
+  /*===========page 1start========*/
+.page1{
+
+    flex-direction: row;
+    margin-top:10%;
+    margin-left:17%;
+    margin-right:17%;
+    margin-bottom:10%;
+}
+.page1 h {
+  font-size: 50px;
+  color:#0066b2;   
+  font-style: italic;  
+}
+span{
+color:#002D62;
+}
+
+.page1.a {
+ background:#662d91;
+ text-decoration: none;
+ font-weight: bold;
+}
+.page1 p {
+ -webkit-text-fill-color:#002D62;
+ font-size:18px;
+}
+.page1 h2 {
+-webkit-text-fill-color:#002D62;
+font-weight :bold;
+font-size: 20px;
+}
+.matter img {
+  width:50px;
+  height: 60px;
+} 
+
+
+/*==================================================about section================================================*/
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.left-container {
+  width: 45%;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.right-container {
+  width: 45%;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  display: inline-block;
+}
+strong {
+  color:purple;
+}
+.left-container button {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: plum;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.button{
+   color: #515ada;
+   margin-left:43%;
+   
+   
+}
+  
+.left-container  h1  {
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-text-fill-color:#515ada; 
+}
+ 
+.right-container  h1  {
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-text-fill-color:#515ada;
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+
+/*======================================================my skills===============================================*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  -webkit-text-fill-color: purple;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Skill icons */
+.html-icon {
+  color: #E44D26;
+}
+
+.css-icon {
+  color: #2965F1;
+}
+
+.js-icon {
+  color: #F0DB4F;
+}
+
+.python-icon {
+  color: #3776AB;
+}
+
+.java-icon {
+  color: #007396;
+}
+
+.c-icon {
+  color: #A8B9CC;
+}
+
+.cpp-icon {
+  color: #00599C;
+}
+
+.bootstrap-icon {
+  color: #563D7C;
+}
+
+.sql-icon {
+  color: #336791;
+}
+/*====================================================EXPERIENCE===============================================*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+}
+
+.experience-card {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 3px;
+  box-shadow: 1 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  height: 42vh;
+
+}
+.experience-card h2 {
+  color:#2965F1 ;
+  margin-top: 0;
+}
+
+.experience-card p {
+  color: black;
+}
+/*=====================================contact=========================================*/
+.contact-section h4 {
+  -webkit-text-fill-color: purple;
+  text-align: center;
+  margin-top: 0%;
+}
+.container2{
+  text-align: center;
+}
+#scrollable-container {
+  height: 300px; /* Set the desired height for the container */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.page {
+  height: 300px; /* Set the desired height for each page */
+}
+
+
+/*=========================================================================================================================
+======================================================================================================================
+=========================================================================================================================
+=============================================responsive small screen=====================================*/
+@media (max-width: 576px) {
+        /* Styles for small screens */
+.navbar {
+background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); ;
+    padding: 5px;
+}
+.page1{
+  flex-direction: row;
+  margin-top:5%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:5%;
+}
+.experience-card {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 5px;
+  box-shadow: 1 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  height: 50vh;
+}
+.contact-section h4 {
+  -webkit-text-fill-color: purple;
+  text-align: center;
+  margin-top: 0%;
+  font-size-adjust: 20px;
+}
+.contact h4 {
+      text-align: center;
+}
+.container2 p  {
+   margin-left: 30px;
+}
+.button{
+  color: #515ada;
+  margin-left:25%;
+  
+  
+}
+.right-container  h1  {
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-text-fill-color:#515ada;
+  font-size: medium;
+}
+.left-container  h1  {
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-text-fill-color:#515ada; 
+  font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+  
+  
+
